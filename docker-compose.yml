@@ -7,5 +7,5 @@ services:
     network_mode: 'host'
     restart: 'unless-stopped'
     volumes:
-      - /path/to/config:/config
-      - /path/to/cache:/cache
+      - /path/to/config:~/containers/jellyfin/config
+      - /path/to/cache:~/containers/jellyfin/cache
