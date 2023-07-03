@@ -3,7 +3,7 @@ services:
   jellyfin:
     image: jellyfin/jellyfin
     container_name: jellyfin
-    user: roman
+    user: '1000'
     network_mode: 'host'
     restart: 'unless-stopped'
     volumes:
